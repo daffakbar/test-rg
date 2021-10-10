@@ -1,0 +1,19 @@
+.card {
+  margin: 0px 8px;
+  .poin-text {
+    color: #74b71b;
+  }
+  .poin-icon {
+    margin-right: 6px;
+  }
+  .review-text {
+    font-size: 14px;
+  }
+  .btn:focus {
+    background-color: #dc3545;
+  }
+  .rounded-pill {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

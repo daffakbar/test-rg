@@ -20,6 +20,7 @@ class ProductPage extends Component {
         console.log("err: ", err);
       });
   }
+
   render() {
     return (
       <div class="container">
@@ -52,6 +53,9 @@ class ProductPage extends Component {
                     points={item.attributes.points}
                     review={item.attributes.numOfReviews}
                     images={item.attributes.images}
+                    stock={item.attributes.stock}
+                    rating={item.attributes.rating}
+                    newProduct={item.attributes.isNew}
                   />
                 </div>
               ))}
